@@ -1,0 +1,124 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-image: url(wp3006038.webp);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    font-size: 2em;
+    text-transform: capitalize;
+    margin-top: 20px;
+    background-color: #482986;
+    color: #afaaaa;
+}
+
+header {
+    background-image: url(wp3006038.webp);
+    opacity: 70%;
+    background-color: #482986;
+    color: rgb(131, 131, 128);
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+    text-decoration: solid;
+    text-overflow: inherit;
+    font-weight: bold;
+}
+
+section{
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding: 12px;
+}
+
+section h2{
+    background: radial-gradient(circle,#d4dad3ec,#ced7dca8,#ded2e5e5);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.3em;
+    margin-bottom: 7px;
+}
+
+h1 {
+    background: radial-gradient(circle,#43757a,#58392e,#56a5c074);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 48px;
+    font-size: 2.5em;
+    font-weight: 400;
+    padding: 10px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: large;
+    font-weight: 100;
+    font-style: inherit;
+    text-align: center;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.rewards {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.rewards h2 {
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: #85299a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.3em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background: rgb(51, 105, 193);
+}
+
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Add responsive design for smaller screens */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    section h2 {
+        font-size: 1.6em;
+    }
+
+    body {
+        padding: 7px;
+    }
+}
